@@ -1,3 +1,11 @@
+# Rev. 3
+
+This is a fork of [Sven Petersen's excellent C64 Diagnostic Cartridge Board](https://github.com/svenpetersen1965/Diag64cart). 
+
+The only change is that JP3 is implemented as a real jumper instead of a solder bridge. That way the Cart can quickly be reconfigured to be used on a C64 and a C128 without having to cut and resolder a solder bridge. For example with C64 Diagnostic ROM 586220 at address $0000 with JP7 and JP3 set. And for the C128 with ROM 785260 at address $8000 with JP7 and JP3 removed.
+
+Here follows the original README:
+
 # Diag64cart
 The Diag64cart is a C64/C128 cartridge PCB, that is especially made for the need of diagnostic software, like Dead Test Rev. 781220 and Diagnostic Rev. 586220. The Diag64cart is derived from the Versa64cart (https://github.com/bwack/Versa64Cart), it lacks of the ability to be a 16k cartridge, though.
 The geometry of this cart was especially made for the cheap Maszczyk KM-20 and the Kradex Z7 cartridge cases. Those are available from https://restore-store.de/ or https://www.tme.eu.
